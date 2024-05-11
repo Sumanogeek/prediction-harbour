@@ -1,14 +1,18 @@
 # prediction-harbour
 ml-prediction-service
 
-Clone this get repo.
+Clone this git repo.
 
 Install 
+```shell
 pip install textblob
 pip install fastapi
+```
 
 From the project root directory (prediction-harbour) run below command to boot-up the service.
+```shell
 fastapi run main.py
+```
 
 To verify the service go to http://0.0.0.0:8000/docs and click "Try it out" button under post: /predict_sentiment
 
